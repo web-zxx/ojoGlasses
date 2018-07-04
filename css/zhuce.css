@@ -1,0 +1,122 @@
+.zc-content{
+	margin: 0 auto;
+	width: 980px;
+	height: 655px;
+	box-shadow: 1px 1px 5px gray;
+	margin-top: 30px;
+	border-radius: 5px;
+	
+}
+.zc-boxleft{
+	width: 630px;
+	height: 530px;
+	margin-left: 40px;
+	margin-top: 40px;
+	float: left;
+	font-size: 12px;
+	border-right: 1px dashed #e5e5e5;
+    color: #555;
+	
+}
+.zc-boxright{
+	height: 40px;
+	width: 270px;
+	float: right;
+	margin-top: 106px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #555;
+	
+}
+.zc-denglu{
+	height: 40px;
+	width: 120px;
+	font-size: 16px;
+	letter-spacing: 8px;
+	margin-left: 5px;
+}
+.zc-h1{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 38px;
+}
+.zc-form{
+	height: 530px;
+	overflow: hidden;
+}
+.zc-list{
+	height: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 40px;
+	position: relative;
+}
+.zc-label{
+	display: inline-block;
+	height: 40px;
+	width: 86px;
+	margin-left:40px ;
+	float: left;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 5px;
+}
+.zc-span1{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: red;
+	padding-left: 5px;
+}
+.zc-list input{
+	height: 36px;
+	width: 250px;
+	float: left;
+}
+.zc-phone{
+	height: 39px;
+	width: 100px;
+	position: absolute;
+	right: 246px;
+	top:0;
+	background-color: red;
+	text-align: center;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#yanzheng{
+	width: 120px;
+}
+.zc-suijima{
+	float: left;
+	width: 100px;
+	height: 30px;
+	background-color: skyblue;
+	margin-left: 26px;
+	margin-top: 4px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+#zc-checkbox{
+	margin-left: 124px;
+	margin-right: 5px;
+}
+
+#zc-sub{
+	display: block;
+	border-radius: 3px;
+    width: 250px;
+    height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    background: #F62648;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    margin-left: 130px;
+}

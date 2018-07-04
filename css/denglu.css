@@ -1,0 +1,117 @@
+.dl-content{
+	height: 475px;
+	background-color: #E31939;
+}
+.dl-box{
+	width: 990px;
+	height: 475px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/denglubg.jpg);
+}
+.dl-k{
+	height: 360px;
+	width: 306px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	padding: 20px;
+}
+.dl-daohang{
+	width: 306px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.dl-liji{
+	display: inline-block;
+	float: right;
+	color: red;
+	font-size:12px ;
+}
+#dl-name,#dl-psd,.dl-yz{
+	height: 35px;
+	width: 304px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#dl-yanzhengma{
+	height: 35px;
+	width: 115px;
+	margin-bottom: 20px;
+	float: left;
+}
+#dl-yanzheng{
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	background: greenyellow;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: center;
+	font-size: 18px;
+
+}
+.dl-xuanxiang{
+	float: left;
+	width: 304px;
+	height: 20px;
+	font-size: 12px;
+	margin-bottom: 14px;
+}
+.dl-aa{
+	margin-left: 130px;
+	color: #000000;
+}
+#dl-btn{
+	display: block;
+	border-radius: 3px;
+    width: 250px;
+    height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    background: #F62648;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    border: none;
+    margin: 0 auto;
+}
+.dl-bb{
+	height: 24px;
+	width: 304px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.dl-bb a{
+	height: 24px;
+	display: block;
+	font-size: 12px;
+	line-height: 24px;
+	color: #666666;
+	
+}
+.dl-bb a i{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	float: left;
+	margin-right: 4px;
+	background:url(../images/xuebitu.png) ;
+}
+.dl-bb a .weixin{
+	background-position: -24px 0;
+}
+.dl-bb a .qq{
+	background-position: -24px -25px;
+}
+.dl-bb a .weibo{
+	background-position: -24px -50px;
+}.dl-bb a .zhifubao{
+	background-position: -24px -76px;
+}

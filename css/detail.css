@@ -1,0 +1,360 @@
+.list{
+	display: none;
+}
+.daohangleft:hover .list{
+	display: block;
+}
+img{
+	display: block;
+}
+.D-content{
+	width: 1190px;
+	margin: 0 auto;
+	font-size:12px ;
+}
+a{
+	color: #999999;
+}
+a:hover{
+	
+	color: red;
+}
+.content-tit{
+	padding-top: 10px;
+    height: 16px;
+    line-height: 16px;
+    color: #999;
+    padding-bottom: 10px;
+}
+.content-tit a{
+	color: #000000;
+}
+.D-wrap{
+	height: 573px;
+}
+.D-wrap-left{
+	width: 442px;
+	height:573px;
+	position: relative;
+}
+.wrap-pic{
+	height: 440px;
+	width: 440px;
+	border: 1px solid #e3e3e3;
+	position: relative;
+}
+.wrap-pic img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.mask{
+	height: 270px;
+	width: 270px;
+	background: lightgray;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .3;
+	display: none;
+}
+.bigbox{
+	height: 550px;
+	width: 550px;
+	background: gainsboro;
+	position: absolute;
+	top: 0;
+	left: 442px;
+	display: none;
+	overflow: hidden;
+}
+.bigImg{
+	position: absolute;
+	left: 0;
+	top:0
+}
+.wrap-list{
+	height: 60px;
+	width: 440px;
+	margin-top: 20px;
+}
+.pre,.next{
+	height: 60px;
+	width: 30px;
+	background: url(../images/shuangjt.png) no-repeat;
+	cursor: pointer;
+}
+.pre{
+	float: left;
+	background-position: -84px center;
+}
+.next{
+	float: right;
+	background-position: -130px center;
+}
+.centerpic1{
+	height: 58px;
+	width: 58px;
+	margin-left: 10px;
+}
+.centerpic1:hover{
+	border: 1px solid #E5E5E5;
+}
+
+.wrap-left-bottom{
+	height: 25px;
+	width: 440px;
+	margin-top: 25px;
+}
+.D-wrap-center{
+	width: 512px;
+	height: 573px;
+	padding: 0 15px;
+	border-right: 1px dotted #999999;
+}
+.ojo-tit{
+	width: 422px;
+	height: 50px;
+	font-size:15px ;
+	font-weight: 800;
+}
+.ojo-price{
+	height: 70px;
+	background:url(../images/ojo-price.png);
+	margin-top: 8px;
+	text-indent: 4px;
+	font-size: 12px;
+	color: #999999;
+}
+.bendianjia{
+	height: 44px;
+	line-height: 44px;
+}
+.shichangjia{
+	height: 25px;
+	line-height: 25px;
+}
+.ojo-xiaoliang{
+	height: 85px;
+	margin-top: 10px;
+	border-bottom: 1px dotted #999999;
+	border-top: 1px dotted #999999;
+	
+}
+.ojo-li1,.ojo-li2,.ojo-li3{
+	height: 58px;
+	width: 163px;
+	margin-top: 15px;
+	text-align: center;
+	color: #999999;
+	border-right: 1px solid #999999;
+}
+.ojo-li3{
+	border: none;
+}
+.ojo-color{
+	height: 40px;
+	margin-top: 30px;
+	line-height: 40px;
+	text-align: center;
+	color: red;
+	
+}
+.ojo-color li{
+	list-style: none;
+	float: left;
+	height: 38px;
+	width: 50px;
+	border: 1px solid #999999;
+}
+.ojo-color span{
+	display: inline-block;
+	float: left;
+	width: 50px;
+	color: #000000;
+}
+.ojo-count{
+	height: 35px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 35px;
+	border-bottom: 1px dotted #999999;
+}
+.ojo-count span{
+	display: inline-block;
+	float: left;
+	width: 50px;
+	color: #000000;
+	
+}
+#cc{
+	height: 22px;
+	width: 44px;
+	float: left;
+	margin-top: 4px;
+}
+.ccbtn{
+	height:26px ;
+	width: 20px;
+	background: #FFFFFF;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+.up,.down{
+	float: left;
+	height: 13px;
+	width: 20px;
+}
+.up{
+	background: url(../images/cc1.gif) no-repeat;
+}
+.down{
+	background: url(../images/cc2.gif) no-repeat;
+}
+.ojo-tj{
+	height: 40px;
+	margin-top: 25px;
+}
+.tj1,.tj2{
+	display: inline-block;
+	height: 40px;
+	width: 180px;
+	margin-left: 40px;
+}
+.tj1{
+	background: url(../images/pay.png) no-repeat;
+}
+.tj2{
+	background: url(../images/pay.png) no-repeat -190px 0;
+}
+.promise{
+	height: 45px;
+	margin-top: 30px;
+}
+.D-wrap-right{
+	width: 170px;
+	height: 573px;
+	margin-left: 10px;
+}
+.D-wrap-right li{
+	height: 113px;
+	width: 170px;
+	list-style: none;
+	margin-top: 15px;
+}
+.detail{
+	background: skyblue;
+	margin-top: 25px;
+	position: relative;
+}
+.detail-left{
+	height: 1175px;
+	width: 190px;
+	border: 1px solid #999999;
+	font-size: 12px;
+	color: #333333;
+	
+}
+.dd-tit{
+	width: 190px;
+	height: 40px;
+	border-bottom: 1px solid #999999;
+	text-align: center;
+	line-height: 40px;
+}
+.dd-list{
+	width: 160px;
+	height:1105px;
+	padding: 15px;
+}
+.dd-dl{
+	height: 177px;
+	width: 160px;
+	margin-top: 5px;
+}
+.dd-dl dt{
+	height: 110px;
+	width: 160px;
+}
+.dd-dl dd{
+	height: 60px;
+}
+.dd-dl dd p{
+	text-align: center;
+	padding-top: 10px;
+	
+}
+.dd-p{
+	color: red;
+}
+.xdlist{
+	height: 40px;
+	width: 990px;
+	/*position: absolute;
+	top: 0;
+	right: 0px;*/
+	float: right;
+	border-bottom:1px solid red ;
+	z-index: 999;
+	background: #fafafa
+}
+.xdlist li{
+	height: 38px;
+	width: 120px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	list-style: none;
+	border: 1px solid #9999;
+	border-bottom: 1px solid red;
+	background: #fafafa;
+	
+}
+.xdlist li a{
+	display: block;
+	height: 40px;
+	width: 122px;
+	color:#000000;
+	font-size: 14px;
+	
+}
+.xdlist li .active{
+	background: red;
+	color: #FFFFFF;
+}
+.joincar{
+	height: 40px;
+	width: 190px;
+	background: red;
+	float: right;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color: #FFFFFF;
+	position: relative;
+}
+.carlist{
+	height: 500px;
+	width: 190px;
+	background: #f5f5f5;
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+.carlist a{
+	color: black;
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+}
+
+.detail-right{
+	width: 800px;
+	margin-top: 45px;
+	margin-left: 9px
+}
+.bac{
+	background: url(../images/redjt.jpg) no-repeat 30px center;
+}
